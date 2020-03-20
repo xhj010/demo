@@ -1,7 +1,7 @@
 import axios from 'axios'
 import qs from 'qs'
 
-axios.defaults.baseURL = 'http://localhost:3333';
+axios.defaults.baseURL = 'http://localhost:3333'; //设置默认地址
 
 // 添加请求拦截器
 axios.interceptors.request.use(config=>{
